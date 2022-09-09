@@ -1,0 +1,48 @@
+body{
+    color: white;
+    background-color: #355764;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'IBM Plex Serif', serif;;
+}
+div{
+    padding: 0 30px;
+}
+i{
+    font-size: 25px;
+    font-weight: 800;
+}
+label{
+    margin: 10px;
+    font-size: larger;
+    font-weight: 700;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+}
+#parameters{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#timer{
+    width: 200px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 20%;
+    border: solid 10px #2C3333
+}
+#timer-label{
+    font-size: 25px;
+    font-weight: 800;
+}
+#time-left{
+    font-size: 70px;
+}

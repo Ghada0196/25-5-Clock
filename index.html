@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>25 + 5 Clock</title>
+        <link charset="utf-8">
+        <!--FontAwesome-->
+        <script src="https://kit.fontawesome.com/faf5cf1328.js" crossorigin="anonymous"></script>
+       
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>25 + 5 Clock</h1>
+        <div id="parameters">
+            <div id="break-div">
+                <h2 id="break-label">Break Length</h2>
+                <button><i id="break-decrement" class="fa-solid fa-arrow-down"></i></button>
+                <label id="break-length">5</label>
+                <button><i id="break-increment" class="fa-solid fa-arrow-up"></i></button>
+                
+            </div>
+            <div id="session-div">
+                <h2 id="session-label">Session Length</h2>
+                <button><i id="session-decrement" class="fa-solid fa-arrow-down"></i></button>
+                <label id="session-length">25</label>
+                <button><i id="session-increment" class="fa-solid fa-arrow-up"></i></button>
+                
+            </div>
+        </div>
+        
+        <div id="timer">
+            <h3 id="timer-label">Session</h3>
+            <h3 id="time-left"><span id="min">25</span>:<span id="sec">00</span></h3>
+        </div>
+            <button><i id="start_stop" class="fa-solid fa-play"></i><i class="fa-solid fa-pause"></i></button>
+            <button><i id="reset" class="fa-solid fa-arrows-rotate"></i></button>
+
+        <audio id="beep" src="http://cd.textfiles.com/sbsw/BEEPCHMS/MORSE.WAV"></audio>
+
+        <script src="app.js"></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
